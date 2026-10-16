@@ -1,0 +1,101 @@
+{
+  "viewBox": [
+    300,
+    280
+  ],
+  "nodes": [
+    {
+      "id": 0,
+      "x": 150.0,
+      "y": 106.0,
+      "left": 50.0,
+      "top": 37.86,
+      "message": "You make ordinary days feel special.",
+      "next": 1
+    },
+    {
+      "id": 1,
+      "x": 179.42,
+      "y": 71.65,
+      "left": 59.81,
+      "top": 25.59,
+      "message": "You deserve kindness, love, and beautiful opportunities.",
+      "next": 2
+    },
+    {
+      "id": 2,
+      "x": 233.2,
+      "y": 111.2,
+      "left": 77.73,
+      "top": 39.71,
+      "message": "I hope you never forget how precious you are.",
+      "next": 3
+    },
+    {
+      "id": 3,
+      "x": 179.42,
+      "y": 181.95,
+      "left": 59.81,
+      "top": 64.98,
+      "message": "21 August 2025 — the beginning of our story.",
+      "next": 4
+    },
+    {
+      "id": 4,
+      "x": 150.0,
+      "y": 220.4,
+      "left": 50.0,
+      "top": 78.71,
+      "message": "One more reason to smile.",
+      "next": 5
+    },
+    {
+      "id": 5,
+      "x": 120.58,
+      "y": 181.95,
+      "left": 40.19,
+      "top": 64.98,
+      "message": "This little universe was made just for you.",
+      "next": 6
+    },
+    {
+      "id": 6,
+      "x": 84.39,
+      "y": 78.14,
+      "left": 28.13,
+      "top": 27.91,
+      "message": "Of all the little things in this universe, you’re my favourite.",
+      "next": 0
+    }
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      0
+    ]
+  ]
+}
