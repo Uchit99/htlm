@@ -1,8 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+const base = process.env.GITHUB_ACTIONS ? '/htlm/' : '/'
+
 export default defineConfig({
-  // The project is hosted from https://uchit99.github.io/htlm/ on GitHub Pages.
-  base: '/htlm/',
+  // GitHub Pages hosts this project under /htlm/, while Vercel uses the domain root.
+  base,
   plugins: [react()],
 })
